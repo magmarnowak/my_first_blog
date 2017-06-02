@@ -8,4 +8,6 @@
             <p>{{ post.text|truncatechars:200 }}</p>
         </div>
     {% endfor %}
+
+    {% include 'pagination.html' with page=posts %}
 {% endblock %}
