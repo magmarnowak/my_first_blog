@@ -5,3 +5,4 @@ myvenv
 /static
 .DS_Store
 my_first_blog-master.zip
+db.sqlite3
